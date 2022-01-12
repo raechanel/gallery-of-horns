@@ -4,7 +4,7 @@ import './HornedBeast.css';
 
 class HornedBeast extends React.Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       hearts: 0
@@ -13,50 +13,30 @@ class HornedBeast extends React.Component {
 
   handleHeart = () => {
     this.setState({
-     hearts: this.state.hearts + 1
+      hearts: this.state.hearts + 1
     });
   }
 
   render() {
     return (
-      <article>
-        <Card style={{width: '80%'}} 
+      <Card style={{ width: '30%' }}
         className='animal-card'>
-          <Card.Img 
-            variant="top" 
-            onClick={this.handleHeart}
-            src={this.props.imageURL}
-            alt={this.props.name}
-            title={this.props.name}
-
-          />
-          <Card.Body>
-            <Card.Title>
-              {this.props.name}
-            </Card.Title>
-            <Card.Text>
-              <p>💛: {this.state.hearts}</p>
-              <p>{this.props.description}</p>
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-
-
-
-
-
-
-
-        {/* <h2>{this.props.title}</h2>
-        <p>💛: {this.state.hearts}</p>
-        <img onClick={this.handleHeart}
+        <Card.Img
+          variant="top"
+          onClick={this.handleHeart}
           src={this.props.imageURL}
           alt={this.props.name}
           title={this.props.name}
         />
-        <p>{this.props.description}</p> */}
-      </article>
+        <Card.Body>
+          <Card.Title>
+            {this.props.name}
+          </Card.Title>
+          <Card.Text>{this.props.description}</Card.Text>
+          <Card.Text>💛 {this.state.hearts}</Card.Text>
+        </Card.Body>
+      </Card>
+
     )
   }
 }

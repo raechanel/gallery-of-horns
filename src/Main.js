@@ -10,6 +10,7 @@ let animalArray = this.props.data.map((animal, index) => (
       key={index}
       imageURL={animal.image_url}
       description={animal.description}
+      name={animal.title}
   />
   ));
 
