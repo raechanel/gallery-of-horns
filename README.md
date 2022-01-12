@@ -74,3 +74,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Day by Day
 
 1/10/2022: Today I will just be focusing on the component structure of the application. You will create a new React application using `create-react-app` and fill it with components
+
+1/11/2022: 
+
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
