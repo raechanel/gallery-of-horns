@@ -9,7 +9,7 @@ class Main extends React.Component {
       <HornedBeast
         key={index}
         src={animal.image_url}
-        handleShowModal={this.props.handleShowModal}
+        handleShowModal={this.props.handleShow}
         animal={animal}
         description={animal.description}
         name={animal.title}

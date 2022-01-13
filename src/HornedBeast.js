@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import SelectedBeast from './SelectedBeast';
 
 import './HornedBeast.css';
 
@@ -18,7 +17,7 @@ class HornedBeast extends React.Component {
     this.setState({
       hearts: this.state.hearts + 1
     });
-    this.props.handleShowModal(this.props.animal);
+    this.props.handleShow(this.props.animal);
   }
 
   render() {
@@ -41,9 +40,9 @@ class HornedBeast extends React.Component {
             <Card.Text>💛 {this.state.hearts}</Card.Text>
           </Card.Body>
         </Card>
-        </>
-        )
+      </>
+    )
   }
 }
 
-        export default HornedBeast;
+export default HornedBeast;
