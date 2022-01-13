@@ -19,11 +19,8 @@ class SelectedBeast extends React.Component {
           {this.state.animal.description}
         </Modal.Body>
       </Modal>
-      
-      )
-    }
+
+    )
   }
-  
-  export default SelectedBeast;
-
-
+}
+export default SelectedBeast;
