@@ -5,18 +5,20 @@ import './Main.css'
 class Main extends React.Component {
   render() {
 
-let animalArray = this.props.data.map((animal, index) => (
-    <HornedBeast
-      key={index}
-      imageURL={animal.image_url}
-      description={animal.description}
-      name={animal.title}
-  />
-  ));
+    let animalArray = this.props.data.map((animal, index) => (
+      <HornedBeast
+        key={index}
+        src={animal.image_url}
+        handleShowModal={this.props.handleShowModal}
+        animal={animal}
+        description={animal.description}
+        name={animal.title}
+      />
+    ));
 
     return (
       <main>
-       {animalArray}
+        {animalArray}
       </main>
     )
   }
