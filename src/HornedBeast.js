@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-
+import Button from 'react-bootstrap/Button';
 import './HornedBeast.css';
 
 
@@ -27,7 +27,7 @@ class HornedBeast extends React.Component {
           className='animal-card'>
           <Card.Img
             variant="top"
-            onClick={this.handleHeart}
+            // onClick={this.handleHeart}
             src={this.props.src}
             alt={this.props.name}
             title={this.props.name}
@@ -37,7 +37,10 @@ class HornedBeast extends React.Component {
               {this.props.name}
             </Card.Title>
             <Card.Text>{this.props.description}</Card.Text>
-            <Card.Text>💛 {this.state.hearts}</Card.Text>
+            <Card.Text>
+              <Button className="button" variant="primary" onClick={this.handleHeart}>💛</Button>
+               {this.state.hearts}
+            </Card.Text>
           </Card.Body>
         </Card>
       </>
