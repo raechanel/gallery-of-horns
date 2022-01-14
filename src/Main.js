@@ -20,9 +20,6 @@ class Main extends React.Component {
       displayedBeast = data.filter((creature) => creature.horns === numHorns);
     }
     this.setState({ beasts: displayedBeast });
-    console.log(this.state.beasts)
-
-
   }
 
   render() {
@@ -41,15 +38,15 @@ class Main extends React.Component {
     return (
       <main>
         <>
-          <Form>
+          <Form style={{width: '30%', marginLeft: '70%'}}>
             <Form.Group controlId="select">
-              <Form.Label>Filter By</Form.Label>
+              <Form.Label>Filter By Number of Horns</Form.Label>
               <Form.Control as="select" onChange={this.filter}>
-                <option value="0">All</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                <option value="100">One Hundred</option>
+                <option value="0">Show All Beasts</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="100">4+</option>
               </Form.Control>
             </Form.Group>
           </Form>
@@ -61,7 +58,3 @@ class Main extends React.Component {
 }
 
 export default Main;
-
-
-
-
