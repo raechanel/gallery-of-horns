@@ -27,7 +27,7 @@ class HornedBeast extends React.Component {
           className='animal-card'>
           <Card.Img
             variant="top"
-            // onClick={this.handleHeart}
+            onClick={this.handleShow}
             src={this.props.src}
             alt={this.props.name}
             title={this.props.name}

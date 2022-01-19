@@ -1,4 +1,6 @@
-# In this application, I will be creating an application that displays images and information of horned animals. This application will allow you to filter the images by number of horns and chose your favorite image
+# Gallery of Horns
+
+In this application, I will be creating an application that displays images and information of horned animals. This application will allow you to filter the images by number of horns and chose your favorite image
 
 ## Built with
 
@@ -9,6 +11,7 @@
 
 ## Contributors
 
+TA helped put form in it's own component.
 ***
 
 * Regan Hayes
@@ -27,10 +30,29 @@ Actual time needed to complete: 2 hours
 
 1/11/2022:
 
-Number and name of feature: 2 / .map feauture and bootstrap
+Number and name of feature: 2 / .map feature and bootstrap
+
+Estimate of time needed to complete: 2 hours
+
+Actual time needed to complete: 2 hours
+
+1/12/2022:
+
+Number and name of feature: 1 | Modal
 
 Estimate of time needed to complete: 5 hours
 
 Actual time needed to complete: 3 hours
+
+1/13/2022:
+
+Number and name of feature: 2 | Form and Filter
+
+Estimate of time needed to complete: 6 hours
+
+Actual time needed to complete: 3.5 hours
+
+
+
 
 
