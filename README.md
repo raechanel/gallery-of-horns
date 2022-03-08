@@ -11,7 +11,6 @@ In this application, I will be creating an application that displays images and 
 
 ## Contributors
 
-TA helped put form in it's own component.
 ***
 
 * Regan Hayes

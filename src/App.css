@@ -40,3 +40,7 @@
 * {
   text-align: center;
 }
+
+#root {
+  background-image: url(./cottoncandy.jpeg);
+}

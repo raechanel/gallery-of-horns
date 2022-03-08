@@ -36,7 +36,7 @@ class Main extends React.Component {
     ));
 
     return (
-      <main>
+      <main class='background'>
         <>
           <Form style={{width: '30%', marginLeft: '70%'}}>
             <Form.Group controlId="select">
