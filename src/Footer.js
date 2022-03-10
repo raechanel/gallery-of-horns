@@ -1,11 +1,12 @@
 import React from 'react';
 
 import './Footer.css';
-class Footer extends React.Component{
-  render(){
-    return(
+
+class Footer extends React.Component {
+  render() {
+    return (
       <footer>
-        <p>&copy;raechanel 2022</p>
+        <p>&copy;RaeChanel 2022</p>
       </footer>
     );
   }

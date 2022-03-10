@@ -1,8 +1,4 @@
-.animal-card {
+.card {
   margin-top: 6vw;
-  padding: 1vw;
-
+  max-height: fit-content;
 }
-
-
-

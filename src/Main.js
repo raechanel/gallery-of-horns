@@ -36,9 +36,9 @@ class Main extends React.Component {
     ));
 
     return (
-      <main class='background'>
+      <main className='background'>
         <>
-          <Form style={{width: '30%', marginLeft: '70%'}}>
+          <Form style={{ width: '30%', marginLeft: '70%' }}>
             <Form.Group controlId="select">
               <Form.Label>Filter By Number of Horns</Form.Label>
               <Form.Control as="select" onChange={this.filter}>

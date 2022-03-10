@@ -2,9 +2,9 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-// import { Col } from 'react-bootstrap';
-// import { Row } from 'react-bootstrap';
+
 import './HornedBeast.css';
+
 
 
 class HornedBeast extends React.Component {
@@ -23,13 +23,13 @@ class HornedBeast extends React.Component {
     this.props.handleShow(this.props.animal);
   }
 
+
+
   render() {
     return (
       <>
-        {/* <Row xs={2} md={3} className="card">
-          <Col> */}
         <Card style={{ width: '30%' }}
-          className='animal-card'>
+          className='card'>
           <Card.Img
             variant="top"
             onClick={this.handleShow}
@@ -48,8 +48,6 @@ class HornedBeast extends React.Component {
             </Card.Text>
           </Card.Body>
         </Card>
-        {/* </Col>
-        </Row> */}
       </>
     )
   }
